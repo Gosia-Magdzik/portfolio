@@ -35,8 +35,8 @@ function Header() {
              </Row>
              </RowStyled>
              <RowStyled>
-                <Row className="mt-4">                  
-                        <p>Technologies & Tools I use</p>
+                <Row className="mt-4 align-items-center text-center justify-content-center">                  
+                        <h2>Technologies & Tools I use</h2>
                         <Tools/>
                 </Row> 
              </RowStyled>
