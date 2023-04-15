@@ -6,7 +6,7 @@ export const Tool = styled.div`
     padding: 20px;
     font-size: 40px;
     margin: 5px;
-    color: ${({ theme }) => theme.color.tool};
+    color: #156B87;
     transition: 0.5s;
 
     &:hover {

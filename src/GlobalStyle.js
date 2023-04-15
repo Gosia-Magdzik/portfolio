@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     };
 
     body {
-        background-color: #FBFBFE;
+        background-color: #156B87;
         font-family: 'IBM Plex Mono', monospace;
         padding: 15px;
         letter-spacing: 0.03em;

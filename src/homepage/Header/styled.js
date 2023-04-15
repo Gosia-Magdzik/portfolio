@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const RowStyled = styled.div`
+    background-color: #FDFFBB;
     border: 1px solid;
     padding: 10px;
     border-radius: 50px;
