@@ -1,6 +1,5 @@
-import { Image, Portfolio, RowStyled, Button, PortfolioStyled} from "./styled";
+import { Image, RowStyled, PortfolioStyled} from "./styled";
 import picture from "./ja.png";
-import portfolio from "./portfolio.png"
 import { Tools } from "../Tools";
 import { Row, Col, Container } from "react-bootstrap";
 import { Contact } from "../Contact"
@@ -41,17 +40,13 @@ function Header() {
              </RowStyled>
              <RowStyled>
                 <Row className="mt-4 align-items-center text-center justify-content-center">                  
-                        <h2>Technologies & Tools </h2>
+                        <h2>Technologies & Tools 🎉🏆🪛</h2>
                         <Tools/>
                 </Row> 
              </RowStyled>
              <PortfolioStyled>
-                <Row>
-                    <h2> Portfolio 
-                    <Portfolio  
-                            src={portfolio} 
-                            alt="/" 
-                    />
+                <Row className="align-items-center text-center justify-content-center">
+                    <h2> Portfolio 🍿
                     </h2>  
                 </Row> 
             </PortfolioStyled>   

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const RowStyled = styled.div`
-    background-color: #FDFFBB;
+    font-family: bigillabold;
+    background-color: #FFF076;
     border: 1px solid;
     padding: 10px;
     border-radius: 50px;
@@ -13,6 +14,22 @@ export const RowStyled = styled.div`
     }
 `
 
+export const PortfolioStyled = styled.div`
+    font-family: bigillabold;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    background-color: #FFF076;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+        box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.5);
+    }
+ `   
+
 export const Image = styled.img`
     border-radius: 10%;
     margin-left: 20px;
@@ -23,12 +40,6 @@ export const Image = styled.img`
     }
 `;
 
-export const Portfolio = styled.img`
-    margin: 5px;
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-`;
 
 export const Name = styled.h1`
     font-size: 30px;
@@ -45,21 +56,4 @@ export const Name = styled.h1`
   @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
     font-size: 22px;
   }
-`;
-
-export const Button = styled.a`
-  color: black;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-  padding: 12px 16px;
-  border-radius: 4px;
-  background-color: ${({ theme }) => theme.color.PattensBlue};
-  display: inline-flex;
-  align-items: center;
-  gap: 15px;
-  transition: box-shadow 0.5s;
-  cursor: pointer;
-  text-decoration: none;
-  margin: 20px;
 `;
