@@ -1,6 +1,7 @@
 import TextArea from "./Textarea";
 import Header from "./Header";
 import { Row, Col, Container } from "react-bootstrap";
+import { StyledFooter } from "./footer"
 
 function Homepage() {
     return (
@@ -13,6 +14,9 @@ function Homepage() {
                         <TextArea />
                     </Col>
                 </Row>
+                <StyledFooter >
+                © 4/2023 by M. 💖
+                </StyledFooter>
         </Container>
     );
 }
