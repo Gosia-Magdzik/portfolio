@@ -6,7 +6,7 @@ function Homepage() {
     return (
         <Container fluid >
                 <Row>
-                    <Col gap={3}>
+                    <Col xs={8} gap={5} >
                         <Header/> 
                     </Col>
                     <Col xs={4}>
