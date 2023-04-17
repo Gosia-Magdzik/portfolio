@@ -1,6 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-//import * as theme from "./theme";
-
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -12,11 +10,13 @@ export const GlobalStyle = createGlobalStyle`
     };
 
     body {
+        overflow-y: scroll;
+        //cursor: url(cursor.png) 4 12, default;
         background-color: #156B87;
         font-family: 'IBM Plex Mono', monospace;
         padding: 15px;
         letter-spacing: 0.03em;
-        overflow: hidden;
+        //overflow: hidden;
         transition: background 0.3s;
     }; 
 `;
