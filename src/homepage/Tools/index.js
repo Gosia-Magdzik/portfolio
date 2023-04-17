@@ -2,6 +2,7 @@ import {
     IoLogoHtml5,
     IoLogoCss3,
     IoLogoJavascript,
+    IoLogoGithub,
 } from "react-icons/io";
 
 import { 
@@ -25,6 +26,10 @@ import { nanoid } from "nanoid";
 
 export const Tools = () => {
     return ([  
+        {
+            logo: <IoLogoGithub />,
+            title: "GitHub"
+        },
         {            
             logo: <IoLogoHtml5 />,
             title: "HTML"
