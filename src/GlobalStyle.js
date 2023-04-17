@@ -16,7 +16,6 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'IBM Plex Mono', monospace;
         padding: 15px;
         letter-spacing: 0.03em;
-        //overflow: hidden;
         transition: background 0.3s;
     }; 
 `;
