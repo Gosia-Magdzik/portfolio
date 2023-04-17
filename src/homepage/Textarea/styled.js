@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const StyledTextArea = styled.div`
-    width: 250 px;
+    position: sticky;
+    //width: 250px;
     overflow-y: scroll;
+    overflow-x: hidden;
     padding: 20px;
     margin-right: 2px;
     margin-left: 0px;
@@ -10,8 +12,6 @@ export const StyledTextArea = styled.div`
     margin-top: 5px;
     white-space: pre-wrap;
     height: 90vh;
-    //max-width: 500px;
-    //float: right;
     border-radius: 50px 0px 0px 50px;
     border: 1px solid black;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
