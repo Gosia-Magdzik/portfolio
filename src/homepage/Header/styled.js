@@ -16,8 +16,6 @@ export const RowStyled = styled.div`
 
 export const PortfolioStyled = styled.div`
     font-family: bigillabold;
-    overflow-y: scroll !important;
-    overflow-x: hidden;
     background-color: #FFF076;
     border: 1px solid;
     padding: 10px;
