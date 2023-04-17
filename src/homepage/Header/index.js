@@ -1,8 +1,9 @@
-import { Image, Portfolio, RowStyled, Button} from "./styled";
+import { Image, Portfolio, RowStyled, Button, PortfolioStyled} from "./styled";
 import picture from "./ja.png";
 import portfolio from "./portfolio.png"
 import { Tools } from "../Tools";
 import { Row, Col, Container } from "react-bootstrap";
+import { Contact } from "../Contact"
 
 function Header() {
     return (
@@ -17,30 +18,34 @@ function Header() {
                     />
                 </Col>
                 <Col className="align-items-center text-center justify-content-center">
-                    <Row sm={3}  
-                         className="mt-2 mb-3">
+                    <Row sm={4}  
+                         className="mt-1 mb-2">
                         <h2>
                             Małgorzata Magdzik
                         </h2>
                     </Row >
                     <Row    sm={3} 
-                            className="mb-3"
-                    >Front end developer</Row>
+                            className="mb-2"
+                    >
+                        <p> Front end developer </p>
+                    </Row>
+                    <br/>
                     <Row sm={3} >
-                        <Button>
-                            Hire Me
-                        </Button>
+                        <Contact/>
+                    </Row>
+                    <Row sm={3}>
+
                     </Row>
                 </Col>                       
              </Row>
              </RowStyled>
              <RowStyled>
                 <Row className="mt-4 align-items-center text-center justify-content-center">                  
-                        <h2>Technologies & Tools I use</h2>
+                        <h2>Technologies & Tools </h2>
                         <Tools/>
                 </Row> 
              </RowStyled>
-             <RowStyled>
+             <PortfolioStyled>
                 <Row>
                     <h2> Portfolio 
                     <Portfolio  
@@ -49,7 +54,7 @@ function Header() {
                     />
                     </h2>  
                 </Row> 
-            </RowStyled>   
+            </PortfolioStyled>   
         </Container>
     );
 }
