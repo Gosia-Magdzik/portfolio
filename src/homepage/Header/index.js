@@ -10,7 +10,6 @@ function Header() {
             <RowStyled>
             <Row>
                 <Col className="align-items-center text-center justify-content-center">
-                
                     <Image  
                         src={picture} 
                         alt="Gosia" 
@@ -39,7 +38,7 @@ function Header() {
              </Row>
              </RowStyled>
              <RowStyled>
-                <Row className="mt-4 align-items-center text-center justify-content-center">                  
+                <Row className="mt-2 pr-3 mb-0 align-items-center text-center justify-content-center">                  
                         <h2>Technologies & Tools 🎉🏆🪛</h2>
                         <Tools/>
                 </Row> 
