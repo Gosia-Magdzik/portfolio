@@ -5,11 +5,11 @@ const animatedText = "<h1>Hello world🙌</h1><p><b>Please, go with me... </b><p
 
 function TextArea () {
     return (
-        <>
+        
         <StyledTextArea>
                 <Markup content={animatedText} />
         </StyledTextArea>
-        </>
+        
     );
 }
 
