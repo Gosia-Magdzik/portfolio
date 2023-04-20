@@ -5,6 +5,6 @@ export const StyledFooter = styled.div`
     align-items: right;
     position: sticky;
     font-family: bigillabold;
-    font-weight: bold;
-    margin-top:1em;
+    margin-top: 3em;
+    margin-bottom: 1em;
 `;

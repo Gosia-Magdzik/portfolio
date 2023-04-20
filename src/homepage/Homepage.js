@@ -15,7 +15,7 @@ function Homepage() {
                     </Col>
                 </Row>
                 <StyledFooter >
-                © 4/2023 by M. 💖
+                © 4/2023 M. 💖
                 </StyledFooter>
         </Container>
     );
