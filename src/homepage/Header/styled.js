@@ -30,12 +30,12 @@ export const PortfolioStyled = styled.div`
 
 export const Image = styled.img`
     border-radius: 10%;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    height: 250px;
-    @media (max-width: ${({ theme }) => theme.breakpoint.small}) {
-        min-width: 125px;
-    }
+    margin-left: 10px;
+    margin-bottom: 5px;
+    max-height: 300px;
+      @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+      width: fill-available;
+      }
 `;
 
 
