@@ -25,6 +25,8 @@ export const { fetchRepos,
                fetchReposSuccess,
                fetchError } = reposSlice.actions;
 
+const selectState = state => state.repos;
+
 export const selectReposStatus = state => selectState(state).status;
 export const selectRepos = state => selectState(state).repos;
 
