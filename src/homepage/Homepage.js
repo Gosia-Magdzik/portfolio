@@ -7,10 +7,20 @@ function Homepage() {
     return (
         <Container fluid >
                 <Row>
-                    <Col xs={8} gap={5} >
+                    <Col        
+                        xs={12}
+                        sm={8}
+                        md={8}
+                        lg={8}
+                    >
                         <Header/> 
                     </Col>
-                    <Col xs={4}>
+                    <Col 
+                        xs={12}
+                        sm={4}
+                        md={4}
+                        lg={4}
+                    >
                         <TextArea />
                     </Col>
                 </Row>
