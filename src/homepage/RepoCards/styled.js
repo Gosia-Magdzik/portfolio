@@ -16,7 +16,7 @@ export const StyledButton = styled(Button).attrs(() => ({
   `;
 
 export const StyledCard = styled(Card)`
-  width: 300px; 
+  max-width: 300px; 
   border-radius: 20px;
   background-color: #CAF2EE; 
   margin-bottom: 10px;
