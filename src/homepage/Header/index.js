@@ -3,6 +3,7 @@ import picture from "./ja.png";
 import { Tools } from "../Tools";
 import { Row, Col, Container } from "react-bootstrap";
 import { Contact } from "../Contact"
+import { ReposCards } from "../RepoCards";
 
 function Header() {
     return (
@@ -45,8 +46,8 @@ function Header() {
              </RowStyled>
              <PortfolioStyled>
                 <Row className="align-items-center text-center justify-content-center">
-                    <h2> Portfolio 🍿
-                    </h2>  
+                    <h2> Portfolio 🍿</h2>  
+                    <ReposCards/>
                 </Row> 
             </PortfolioStyled>   
         </Container>
