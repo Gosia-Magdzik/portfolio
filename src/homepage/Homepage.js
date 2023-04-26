@@ -12,6 +12,7 @@ function Homepage() {
                         sm={8}
                         md={8}
                         lg={8}
+                        className="px-0"
                     >
                         <Header/> 
                     </Col>
