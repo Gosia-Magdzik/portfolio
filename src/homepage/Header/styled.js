@@ -33,8 +33,16 @@ export const Image = styled.img`
     margin-left: 10px;
     margin-bottom: 5px;
     max-height: 300px;
+
       @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-      width: fill-available;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+      }
+      @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
       }
 `;
 
