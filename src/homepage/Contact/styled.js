@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const StyledLink = styled.a`
     text-decoration: none;
     color: black;
-    font-size: max(2vw, 10px);
+    font-size: max(2vw, 20px);
     word-wrap: break-word !important;
+    margin-top: 20px;
 
   &:hover {
     font-style: italic;
