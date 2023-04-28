@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledLink = styled.a`
     text-decoration: none;
     color: black;
-    font-size: max(3vw, 20px);
+    font-size: max(2vw, 10px);
     word-wrap: break-word !important;
 
   &:hover {
