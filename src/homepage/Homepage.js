@@ -5,8 +5,9 @@ import { StyledFooter } from "./footer"
 
 function Homepage() {
     return (
-        <Container fluid >
-                <Row>
+        <Container  >
+                <Row className="text-md-start"
+                >
                     <Col        
                         xs={12}
                         sm={8}
