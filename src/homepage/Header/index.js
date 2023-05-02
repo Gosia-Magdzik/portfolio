@@ -5,28 +5,29 @@ import { Row, Col, Container } from "react-bootstrap";
 import { Contact } from "../Contact"
 import { ReposCards } from "../RepoCards";
 
+
 function Header() {
     return (
         <Container fluid>
             <RowStyled>
-            <Row>
+            <Row xs={12}>
                 <Col className="align-items-center text-center justify-content-center">
-                    <Image  
-                        src={picture} 
-                        alt="Gosia" 
-                    />
+                        <Image  
+                            src={picture} 
+                            alt="Gosia" 
+                        />
                 </Col>
                 <Col className="align-items-center text-center justify-content-center">
                     <Row  className="mt-3 mb-2">
-                        <h2>
+                        <h1>
                             Małgorzata Magdzik
-                        </h2>
+                        </h1>
                     </Row >
                     <Row  className="mb-2"
                     >
-                        <p> Front end developer </p>
+                        <h3> Frontend  React </h3>
                     </Row>
-                    <Row >
+                    <Row xs="auto" >
                            <Contact/> 
                     </Row>
                 </Col>                       
