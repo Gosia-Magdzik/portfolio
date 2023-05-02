@@ -23,10 +23,28 @@ export const StyledContactItem = styled.li`
     list-style-type: none;
     margin-bottom: 0.5em;
     word-wrap: break-word;
+    padding-top: 10px;
 
     &:hover {
       font-style: italic;
       scale: 1.1;
+      animation: shake 2s;
+      color: white;
+
+      @keyframes shake {
+        10% {
+          transform: rotate(2deg);
+        }
+        20% {
+          transform: rotate(-2deg);
+        }
+        30% {
+          transform: rotate(2deg);
+        }
+        40% {
+          transform: rotate(-2deg);
+        }
+      }
   };
 `;
 
