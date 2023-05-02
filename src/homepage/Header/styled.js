@@ -63,3 +63,8 @@ export const Name = styled.h1`
     font-size: 22px;
   }
 `;
+
+export const SpecialFont = styled.h1`
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+`;

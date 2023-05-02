@@ -1,4 +1,4 @@
-import { Image, RowStyled, PortfolioStyled} from "./styled";
+import { Image, RowStyled, PortfolioStyled, SpecialFont} from "./styled";
 import picture from "./ja.png";
 import { Tools } from "../Tools";
 import { Row, Col, Container } from "react-bootstrap";
@@ -19,9 +19,9 @@ function Header() {
                 </Col>
                 <Col className="align-items-center text-center justify-content-center">
                     <Row  className="mt-3 mb-2">
-                        <h1>
-                            Małgorzata Magdzik
-                        </h1>
+                        <SpecialFont>                       
+                                Małgorzata Magdzik
+                        </SpecialFont>
                     </Row >
                     <Row  className="mb-2"
                     >
