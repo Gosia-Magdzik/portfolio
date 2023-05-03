@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledLink = styled.a`
     text-decoration: none;
     color: black;
-    font-size: max(2vw, 15px);
+    font-size: max(1.5vw, 15px);
     word-wrap: break-word;
     margin-top: 20px;
 `;
@@ -16,6 +16,11 @@ export const StyledContact = styled.ul`
     border: 1px solid;
     border-radius: 30px;
     background-color: rgba(241,241,222, 0.4);
+
+    &:hover {
+      background: rgba(255,255,255, 0.6);
+      border-radius: 30px;
+    }
 `;
 
 export const StyledContactItem = styled.li`
@@ -29,7 +34,6 @@ export const StyledContactItem = styled.li`
       font-style: italic;
       scale: 1.1;
       animation: shake 2s;
-      color: white;
 
       @keyframes shake {
         10% {
