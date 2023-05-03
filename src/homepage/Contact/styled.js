@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledLink = styled.a`
     text-decoration: none;
     color: black;
-    font-size: max(2vw, 20px);
+    font-size: max(2vw, 15px);
     word-wrap: break-word;
     margin-top: 20px;
 `;
@@ -52,5 +52,16 @@ export const Image = styled.img`
     width: 3.5em;
     height: 3.5em;
     align-items: flex-end;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        width: 1.5em;
+        height: 1.5em;
+        object-fit: cover;
+      }
+      @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        width: 2.5em;
+        height: 2.5em;
+        object-fit: cover;
+      }
 `;
    
