@@ -12,7 +12,7 @@ function Homepage() {
                         xs={12}
                         sm={8}
                         md={8}
-                        lg={9}
+                        lg={8}
                         className="px-0"
                     >
                         <Header/> 
@@ -21,7 +21,7 @@ function Homepage() {
                         xs={12}
                         sm={4}
                         md={4}
-                        lg={3}
+                        lg={4}
                     >
                         <TextArea />
                     </Col>

@@ -29,8 +29,9 @@ export const StyledTextArea = styled.div`
   }
   `;
 
-  export const Green = styled.p`
-    color: #5A9D26;
-  `;
+export const Image = styled.img`
+    width: 2em;
+    height: 2em;
+`;
 
 

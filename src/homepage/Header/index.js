@@ -29,13 +29,9 @@ function Header() {
                 <Col className="align-items-center text-center justify-content-center">
                     <Row  className="mt-3">
                         <SpecialFont>                       
-                                Małgorzata Magdzik
+                                Małgorzata Magdzik 
                         </SpecialFont>
                     </Row >
-                    <Row  className="mb-1"
-                    >
-                        <h3> Frontend  React </h3>
-                    </Row>
                     <Row
                     className="align-items-center text-center justify-content-center"
                     xs="auto" >
