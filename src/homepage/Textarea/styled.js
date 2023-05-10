@@ -6,7 +6,7 @@ export const StyledTextArea = styled.div`
     //position: fixed;
     overflow-y: scroll;
     max-height: 100vh;
-    min-height: 90%;
+    min-height: 95%;
     overflow-x: hidden;
     padding: 20px;
     margin-right: 5px;
@@ -34,4 +34,23 @@ export const Image = styled.img`
     height: 2em;
 `;
 
+export const UList = styled.ul`
+    li::before {
+        color: #446C16;
+        margin-right: 0.5px;
+        display: inline-block;
+        width: 0.7em;
+        height: 0.7em;
+        border-radius: 50%;
+        border: 1px solid black;
+        vertical-align: middle;
+        margin-left: 5px;
+  }
+`;
+
+export const G = styled.p`
+        color: #446C16;
+        content: "//";
+        font-weight: bold;
+`;
 
