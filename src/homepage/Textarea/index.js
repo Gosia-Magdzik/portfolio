@@ -18,16 +18,16 @@ function TextArea () {
             <p>Thank's for being here.<br/>I code this website also for you.<br/>With love and pleasure <Image src={coffe}/></p>
             <ol>
             <li><G>// story</G></li>
-            <p><u>Last years</u> I have worked at charity for homeless. In National Parks, ornithology camps 🦉, on dogs shelter... and on ecological farms..🐑<br/>
+            <p><u>Last years</u> I have worked at charity for homeless, in National Parks, on ornithology camps 🦉, dogs shelter and on ecological farms..🐑<br/>
             I have walked thousands of kilometers on Santiago de Compostela roads.
             <Image src={arrow}/>
             <Image src={flag}/>
             <Image src={shell}/><br/>
-            yes, I also have experience on regular job, studying 📒<br/>
+            and yes, I also have experience on regular job, studying 📒<br/>
             <u>Last years</u> was a huge growth period for me.<br/>
             <br/>
             At this moment feels important.<br/>
-            I try to lear from my past experiences to build better things.<br/>
+            I am trying to lear from my past experiences to build better things.<br/>
             Thoughtful about life path. <br/>
             <br/>
             <li><G>// How does the coding start ?</G></li>
@@ -44,15 +44,14 @@ function TextArea () {
             And to believe in myself.<br/></p>
             <p><li><G>// future 🥎</G></li>
             <UList>
-             <li>To approach step by step, to narrowing the field in a world with endless choice.</li>
              <li>Learn new technologies: typescript, Nodle.js</li>
              <li>Demanding discipline, organize my time. Don't stress myself.</li><br/>
+             <li>Don't stress myself.</li>
             </UList> 
             <li><G>// Facts</G></li>
             <Image src={arrow}/>Passionate about coding<br/>
             <Image src={arrow}/>Even if I go to emergency boat I gonna ask for non-smoking place 🚭 <br/>
             <Image src={arrow}/>'What makes you vulnerable makes you beautiful'🌸<br/>
-            <Image src={arrow}/>I find cooking ability as one of the most important things <Image src={cook}/><br/>
             <Image src={arrow}/>I love biking. Nothing gives You so much freedom as just endless biking. The best way to travel.🚴‍♀️ <br/><br/>
             </p>
             </ol>
