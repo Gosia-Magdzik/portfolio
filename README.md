@@ -1,9 +1,9 @@
 <div align="center"> 
 # Hey There! Welcome to my portfolio site
 
-[Demo](https://gosia-magdzik.github.io/portfolio/)
 
-⚠️ Please notice that my page is not finished yet 😊
+## [Demo - Click me](https://gosia-magdzik.github.io/portfolio/)
+
 
 </div>
 
