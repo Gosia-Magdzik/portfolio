@@ -44,7 +44,7 @@ export const ReposCards = () => {
                       </Card.Text>
 											<Row>
 												<Col>
-													<StyledButton
+													<StyledButton mb-1
 														href={repo.homepage}
 													>
 														Demo

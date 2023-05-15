@@ -52,22 +52,22 @@ function TextArea () {
             Thoughtful about life path. <br/>
             <br/>
             <li><G>// How does the coding start ?</G></li>
-            Autumn 2022. I was a seasonal worker on ecological olive farm in Sicily.<br/>
+            Autumn 2022. (or maybe even before...) Remember, I was on ecological olive farm in Sicily.<br/>
             From one site: being so happy to have opportunity being in such beautiful place. With great people.<br/>
             From the other: being aware that I am here just a guest. 'Stuck in a moment'<br/>
             <i>How does it work that always someone get in the way and shows direction, give tips, support - I don't know.</i> (So much coincidence has happen🤯)<br/>
             <br/>
             There I have planned (even it is only a human act to plan...)<br/>
-            I gonna be a frontend developer. <br/>
             I will try my best.<br/>
-            Try to make my work as accessible and pleasant as possible.<br/> 
-            To don't give up. Try next day. Again and again.<br/>
-            And to believe in myself.<br/></p>
+            I gonna be a frontend developer. <br/>
+            I sign myself for course and as soon as I come back, I started The project<br/>
+            </p>
             <p><li><G>// future 🥎</G></li>
             <UList>
              <li>Learn new technologies: typescript, Nodle.js</li>
-             <li>Demanding discipline, organize my time. Don't stress myself.</li><br/>
-             <li>Don't stress myself.</li>
+             <li>Demanding discipline, organize my time.</li><br/>
+             <li>Don't stress myself. Try to make my work as accessible and pleasant as possible.<br/> </li>
+             <li>To don't give up. Try next day.</li><br/>
             </UList> 
             <li><G>// Facts</G></li>
             <Image src={arrow}/>Passionate about coding<br/>

@@ -8,16 +8,21 @@ export const StyledButton = styled(Button).attrs(() => ({
     rel: "noopener noreferrer"
     
   }))`
-    background: #115F58;
+    background: #E0DE7E;
     border: none;
-  
-    //&:hover {
+    color: black;
+
+    &:hover {
+      background: #F0F0DE;
+      color: black;
+
+    }
     //&.btn-primary:active {
   `;
 
 export const StyledCard = styled(Card)`
   max-width: 300px; 
   border-radius: 20px;
-  background-color: #CAF2EE; 
+  background-color: #7ED2CA; 
   margin-bottom: 10px;
 `;
