@@ -6,7 +6,7 @@ export const StyledTextArea = styled.div`
     //position: fixed;
     overflow-y: scroll;
     max-height: 100vh;
-    min-height: 95%;
+    min-height: 98%;
     overflow-x: hidden;
     padding: 20px;
     margin-right: 5px;
@@ -49,8 +49,8 @@ export const UList = styled.ul`
 `;
 
 export const G = styled.p`
-        color: #446C16;
-        content: "//";
-        font-weight: bold;
+    color: #446C16;
+    content: "//";
+    font-weight: bold;
 `;
 

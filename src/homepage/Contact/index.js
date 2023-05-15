@@ -10,8 +10,8 @@ export const Contact = () => (
             <Image src={Email} />
             &nbsp;&nbsp;
             <Link
-                href={"mailto:melassa26@gmail.com"}
-                description={"melassa26@gmail.com"}
+                href={"mailto:magdzik.frontend@gmail.com"}
+                description={"magdzik.frontend@gmail.com"}
             />
         </StyledContactItem>
         <StyledContactItem>

@@ -3,18 +3,39 @@ import { Markup } from 'interweave';
 import arrow from "./Images/arrow.svg";
 import flag from "./Images/flag.svg";
 import shell from "./Images/shell.svg";
-import coffe from "./Images/coffee.svg"
-import cook from "./Images/cook.svg"
-import github from "./Images/github.svg"
+import coffe from "./Images/coffee.svg";
+import github from "./Images/github.svg";
+import { Typewriter } from "react-simple-typewriter";
+import React from "react";
 
 const TextA = "html {<br/>box-sizing: border-box;<br/>}<br/>*, ::after, ::before {<br/>box-sizing: inherit;<br/>}</p>body<br/>{<br/>overflow-y: scroll;<br/><br/>background-color: #156B87;<br/>font-family: 'IBM Plex Mono', monospace;<br/><br/>padding: 15px;<br/>letter-spacing: 0.03em;<br/>transition: background 0.3s;<br/>};<br/>//then I downloaded some repositories.. npm i ... easy!<br/><br/>"
+
 
 function TextArea () {
     return (
         <StyledTextArea>
-            <h2><b>Hello world! 🙌</b></h2><br/>
-            <p>Witam, Hola!, שלום.<br/>
-            That's me and my portfolio page.</p>
+            <h1>
+                <span style={{ color: '#115F58'}}>
+                <Typewriter
+                        words={['Hello World!  👏']}
+                        loop={1}
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={60}
+                    />
+                </span>
+            </h1><br/>
+            <span>
+                <Typewriter
+                        words={['Witam,', 'Hola!,', 'שלום,', 'herzlich willkommen,']}
+                        loop={Infinity}
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={90}
+                        deleteSpeed={50}
+                    />
+            </span><br/><br/>
+            <p>That's me and my portfolio page.</p>
             <p>Thank's for being here.<br/>I code this website also for you.<br/>With love and pleasure <Image src={coffe}/></p>
             <ol>
             <li><G>// story</G></li>
