@@ -1,13 +1,43 @@
 <div align="center"> 
-# Hey There! Welcome to my portfolio site
 
-
-## [Demo - Click me](https://gosia-magdzik.github.io/portfolio/)
-
+# Welcome 🌺,
 
 </div>
 
-# Getting Started with Create React App
+## Content
+- [Demo](#demo)
+- [Preview](#preview)
+- [Description](#description)
+- [Technologies](#technologies)
+- [Create React App..](#createReactApp)
+
+<hr>
+
+## Visit the page -> click: [Demo](https://gosia-magdzik.github.io/portfolio/)
+
+<hr>
+
+## Preview
+
+<hr>
+
+## Description
+
+The portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several block.
+
+Application is calling API to fetch GitHub projects.
+
+It presents skills that I possess, includes list of my projects. There is also one block were you can find out more about me.
+<hr>
+
+## Technologies
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,bootstrap,github)](https://skillicons.dev)
+
+
+<div>
+<hr>
+## Create React App..
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -31,4 +61,4 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+</div>
