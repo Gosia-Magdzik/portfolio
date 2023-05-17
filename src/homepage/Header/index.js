@@ -46,12 +46,9 @@ function Header() {
                             className="align-items-center text-center justify-content-center"
                             >
                                 <h2>Technologies & Tools</h2>
-                                &nbsp;&nbsp;
-                                <Svg src={tools}/>   
+                                &nbsp;  
                                 &nbsp;
                                 <Svg src={compass}/>   
-                                &nbsp;
-                                <Svg src={wand}/> 
                             </Wrapper>
                         < Tools />
                 </Row> 
