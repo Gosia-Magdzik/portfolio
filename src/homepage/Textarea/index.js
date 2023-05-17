@@ -21,7 +21,7 @@ function TextArea () {
                         loop={1}
                         cursor
                         cursorStyle='|'
-                        typeSpeed={60}
+                        typeSpeed={300}
                     />
                 </span>
             </h1><br/>
@@ -31,8 +31,9 @@ function TextArea () {
                         loop={Infinity}
                         cursor
                         cursorStyle='|'
-                        typeSpeed={90}
+                        typeSpeed={100}
                         deleteSpeed={50}
+                        delay={10000}
                     />
             </span><br/><br/>
             <p>That's me and my portfolio page.</p>
