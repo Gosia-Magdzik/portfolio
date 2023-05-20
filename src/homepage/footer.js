@@ -9,7 +9,7 @@ export const StyledFooter = styled.div`
     margin-bottom: 1em;
     border: 1px solid;
     border-radius: 10px;
-    background: #2BC9BB;
+    background: #F0F0DE;
     padding: 2px;
     text-align: center;
     //padding: 5px;

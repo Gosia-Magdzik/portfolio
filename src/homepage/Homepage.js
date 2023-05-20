@@ -23,7 +23,7 @@ function Homepage() {
                         md={4}
                         lg={4}
                     >
-                        <TextArea />
+                            <TextArea />
                     </Col>
                 </Row>
                 <StyledFooter >

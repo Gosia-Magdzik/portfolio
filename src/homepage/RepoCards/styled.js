@@ -8,7 +8,7 @@ export const StyledButton = styled(Button).attrs(() => ({
     rel: "noopener noreferrer"
     
   }))`
-    background: #E0DE7E;
+    background: #B7B649;
     border: none;
     color: black;
 

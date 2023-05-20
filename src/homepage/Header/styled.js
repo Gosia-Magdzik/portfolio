@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const RowStyled = styled.div`
     font-family: bigillabold;
-    background-color: #E0DE7E;
+    background-color: #B7B649;
     border: 1px solid;
     padding: 10px;
     border-radius: 50px;
@@ -15,7 +15,7 @@ export const RowStyled = styled.div`
 `
 export const PortfolioStyled = styled.div`
     font-family: bigillabold;
-    background-color: #E0DE7E;
+    background-color: #B7B649;
     border: 1px solid;
     padding: 10px;
     border-radius: 50px;
