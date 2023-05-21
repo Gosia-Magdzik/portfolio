@@ -60,10 +60,6 @@ export const Tools = () => {
             title: "React Router"
         },
         {            
-            logo: <SiRedux />,
-            title: "Redux"
-        },
-        {            
             logo: <SiReduxsaga />,
             title: "Redux saga"
         },  
