@@ -8,7 +8,7 @@ import github from "./Images/github.svg";
 import { Typewriter } from "react-simple-typewriter";
 import React from "react";
 
-const TextA = "import { createGlobalStyle } from 'styled-components';<br/><br/>export const GlobalStyle = createGlobalStyle`<br/>   html {<br/>box-sizing: border-box;<br/>}<br/>*, ::after, ::before {<br/>box-sizing: inherit;}</p>body<br/>{<br/>overflow-y: scroll;<br/><br/>background-color: #156B87;<br/>font-family: 'IBM Plex Mono', monospace;<br/>padding: 15px;<br/>letter-spacing: 0.03em;<br/>transition: background 0.3s;<br/>};<br/>...function TextArea (){<br/>return(->S"
+const TextA = "import { createGlobalStyle } from 'styled-components';<br/><br/>export const GlobalStyle = createGlobalStyle`<br/>   html {<br/>box-sizing: border-box;<br/>}<br/>*, ::after, ::before {<br/>box-sizing: inherit;}</p>body<br/>{<br/>overflow-y: scroll;<br/><br/>background-color: #156B87;<br/>font-family: 'IBM Plex Mono', monospace;<br/>padding: 15px;<br/>letter-spacing: 0.03em;<br/>transition: background 0.3s;<br/>};"
 
  
 const TextB = "That's me and my portfolio page. Thank's for being here. I code this website also for you. With love and pleasure"

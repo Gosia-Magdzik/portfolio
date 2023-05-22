@@ -2,6 +2,7 @@ import TextArea from "./Textarea";
 import Header from "./Header";
 import { Row, Col, Container } from "react-bootstrap";
 import { StyledFooter } from "./footer"
+import { Motion } from "./Header/Motion";
 
 function Homepage() {
     return (
