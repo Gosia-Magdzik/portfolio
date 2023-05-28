@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.b68546a6.js",
+    "main.js": "/portfolio/static/js/main.54c14c69.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ja.png": "/portfolio/static/media/ja.15d819ed91d79bc3aeed.png",
     "static/media/flag.svg": "/portfolio/static/media/flag.8403cd655feee943860d9d3c10aa2b79.svg",
@@ -8,15 +8,14 @@
     "static/media/compass.svg": "/portfolio/static/media/compass.779cb8614637b866716c43af29ede75e.svg",
     "static/media/github.svg": "/portfolio/static/media/github.c57108f56cb8321f6bdf6da0e774f646.svg",
     "static/media/popcorn.svg": "/portfolio/static/media/popcorn.f38bf770554507394d593073d223eb5f.svg",
-    "static/media/coffee.svg": "/portfolio/static/media/coffee.34bddcd1b087ace3ee0ec79d76edd6a9.svg",
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.e7988b0ba74e60eca02dff12cc71598d.svg",
     "index.html": "/portfolio/index.html",
     "static/media/email.svg": "/portfolio/static/media/email.2363d56d3b9de6910a6ec2074a86a1dd.svg",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.5e7721b84c8bbd95311b1347b9c1cbd0.svg",
-    "main.b68546a6.js.map": "/portfolio/static/js/main.b68546a6.js.map",
+    "main.54c14c69.js.map": "/portfolio/static/js/main.54c14c69.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b68546a6.js"
+    "static/js/main.54c14c69.js"
   ]
 }
