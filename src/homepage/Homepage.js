@@ -28,7 +28,7 @@ function Homepage() {
                     </Col>
                 </Row>
                 <StyledFooter >
-                © 4/2023 M. 💖
+                Made with 💖 IV-V/2023.
                 </StyledFooter>
         </Container>
     );

@@ -18,12 +18,13 @@
 <hr>
 
 ## Preview
+![Preview](/PortfoliGiF.gif)
 
 <hr>
 
 ## Description
 
-The portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several block.
+The portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several blocks.
 
 Application is calling API to fetch GitHub projects.
 
@@ -33,10 +34,9 @@ It presents skills that I possess, includes list of my projects. There is also o
 ## Technologies
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,bootstrap,github)](https://skillicons.dev)
-
-
 <div>
 <hr>
+
 ## Create React App..
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

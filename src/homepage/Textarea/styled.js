@@ -54,3 +54,8 @@ export const G = styled.p`
     font-weight: bold;
 `;
 
+export const Center = styled.p`
+    text-align: center;
+    font-size: 22px;
+`;
+
