@@ -1,6 +1,6 @@
 <div align="center"> 
 
-# Welcome 🌺,
+# Welcome <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">,
 
 </div>
 
@@ -24,7 +24,7 @@
 
 ## Description
 
-The portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several blocks.
+My portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several blocks.
 
 Application is calling API to fetch GitHub projects.
 

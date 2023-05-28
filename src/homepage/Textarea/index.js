@@ -9,7 +9,7 @@ import React from "react";
 
 const TextA = "import { createGlobalStyle } from 'styled-components';<br/><br/>background-color: #156B87;<br/>font-family:  monospace;<br/>"
 
-const TextB = "Class Gosia_Magdzik <* Person<br/><br/>  export const initialize<br/>   @user = 'Gosia Magdzik'<br/>   @current_work = 'Writing code'<br/>   @self.position = 'frontend_developer'<br/><br/> mobileApp: {<br/>   native: ['android']<br/>},<br/><br/> def getCity():<br/>    return warsaw_poland()<br/> end<br/><br/> def ambitions {<br/>   	Typescript(),<br/>   	Nodle.js(),<br/>   	...<br/>   }; <br/> Editors: [ 'Vscode', 'WebStorm'],"
+const TextB = "Class Gosia_Magdzik <* Person<br/><br/>  export const initialize<br/>   @user = 'Gosia Magdzik'<br/>   @current_work = 'Writing code'<br/>   @self.position = 'frontend_developer'<br/><br/> mobileApp: {<br/>   native: ['android']<br/>},<br/><br/> def getCity():<br/>    return warsaw_poland()<br/> end<br/><br/><b>def ambitions {<br/>   	Typescript(),<br/>   	Nodle.js()</b> ,<br/>   	...<br/>   }; <br/> Editors: ['Vscode', 'WebStorm'],"
  
 const TextC = "That's me and my portfolio page. Thank's for being here. I code this website also for you. With love and pleasure"
 
@@ -60,12 +60,11 @@ function TextArea () {
             <li><G>story</G></li>
             
             <p><u>Last years</u> I have worked at charity for homeless, in National Parks, ornithology camps 🦉, dogs shelter and on ecological farms..🐑<br/>
-            I have walked thousands of kilometers on Santiago de Compostela roads.
+            I have walked thousands kilometers on Santiago de Compostela roads.
             <Image src={flag}/>
             <Image src={shell}/><br/>
             and yes, I also have experience on regular job, studying 📒<br/>
             <u>Last years</u> was a huge growth period for me.<br/>
-            <br/>
             At this moment feels important.<br/>
             I am trying to lear from my past experiences to build better things.<br/>
             Thoughtful about life path. <br/>
