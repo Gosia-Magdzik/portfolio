@@ -2,22 +2,22 @@
 
 # <img src="https://media.giphy.com/media/Q8mxAjJ3NeKBriQjOh/giphy.gif" width="50"> Welcome <img src="https://media.giphy.com/media/Q8mxAjJ3NeKBriQjOh/giphy.gif" width="50">
 
-## Content
-- [Demo](#demo)
-- [Preview](#preview)
-- [Description](#description)
-- [Technologies](#technologies)
-- [Create React App..](#createReactApp)
+## <u>Content</u>
+[Demo](#demo)<br>
+[Preview](#preview)<br>
+[Description](#description)<br>
+[Technologies](#technologies)<br>
+[Create React App..](#createReactApp)
 
 <hr>
 
-## Visit the page -> click: [Demo](https://gosia-magdzik.github.io/portfolio/)
+## <u>Visit the page -> click:</u> [Demo](https://gosia-magdzik.github.io/portfolio/)
 
-## Preview
+## <u>Preview</u>
 ![Preview](/mobile.gif)
 
 
-## Description
+## <u>Description</u>
 
 Portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several blocks.
 
