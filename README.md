@@ -1,8 +1,6 @@
 <div align="center"> 
 
-# Welcome <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">,
-
-</div>
+# <img src="https://media.giphy.com/media/Q8mxAjJ3NeKBriQjOh/giphy.gif" width="50"> Welcome <img src="https://media.giphy.com/media/Q8mxAjJ3NeKBriQjOh/giphy.gif" width="50">
 
 ## Content
 - [Demo](#demo)
@@ -15,20 +13,18 @@
 
 ## Visit the page -> click: [Demo](https://gosia-magdzik.github.io/portfolio/)
 
-<hr>
-
 ## Preview
-![Preview](/PortfoliGiF.gif)
+![Preview](/mobile.gif)
 
-<hr>
 
 ## Description
 
-My portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several blocks.
+Portfolio website is a highly responsive page application made in React. The Bootstrap library has helped me to set several blocks.
 
 Application is calling API to fetch GitHub projects.
 
-It presents skills that I possess, includes list of my projects. There is also one block were you can find out more about me.
+I tried to present clearly and in attractive way everything I find important. There are separate blocks for my skills, my project, contact and on right side - information about me. Hold on, I have planned also theme switcher 
+
 <hr>
 
 ## Technologies
@@ -36,6 +32,7 @@ It presents skills that I possess, includes list of my projects. There is also o
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,bootstrap,github)](https://skillicons.dev)
 <div>
 <hr>
+</div>
 
 ## Create React App..
 
