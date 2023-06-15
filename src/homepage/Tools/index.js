@@ -85,8 +85,8 @@ export const Tools = () => {
             title: "Figma"
         },
         {            
-            logo: <TypeScript />,
-            title: "Figma"
+            logo: <SiTypescript />,
+            title: "SiTypescript"
         },                         
         ].map(({ logo, title }) => (
             <OverlayTrigger
