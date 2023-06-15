@@ -18,7 +18,8 @@ import {
     SiGit,
     SiFramer,
     SiWordpress,
-    SiFigma
+    SiFigma,
+    SiTypescript,
 } from "react-icons/si";
 
 import { Tool, StyledTooltip } from "./styled";
@@ -82,7 +83,11 @@ export const Tools = () => {
         {            
             logo: <SiFigma />,
             title: "Figma"
-        },                       
+        },
+        {            
+            logo: <TypeScript />,
+            title: "Figma"
+        },                         
         ].map(({ logo, title }) => (
             <OverlayTrigger
                 key = { nanoid() }
