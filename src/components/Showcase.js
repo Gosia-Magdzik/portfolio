@@ -64,6 +64,13 @@ export const Showcase = () => {
                         right="-70px"
                         rotate="0deg"
                     />
+                    <Particle
+                        src={BackgroundImg}
+                        alt="particle"
+                        bottom="30px"
+                        left="-70px"
+                        rotate="50deg"
+                    />
                 </ShowcaseParticleContainer>
             </FlexContainer>
         </FlexContainer>
