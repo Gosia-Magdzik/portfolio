@@ -8,6 +8,13 @@ import {
     IconContainer,
 } from '../styles/Global.styled';
 import { FaGithub } from "react-icons/fa";
+import {
+    ShowcaseParticleContainer,
+    ShowcaseImageCard,
+    Particle
+} from '../styles/Showcase.styled';
+import me from '../assets/mm.png'
+import BackgroundImg from '../assets/particle.png'
 
 export const Showcase = () => {
   return (
@@ -38,6 +45,27 @@ export const Showcase = () => {
                     </IconContainer>
                 </FlexContainer>
             </div>
+            <FlexContainer align='center' justify="flex-end">
+                <ShowcaseParticleContainer>
+                    <ShowcaseImageCard>
+                        <img src={me} alt="mm"/>
+                    </ShowcaseImageCard>
+                    <Particle
+                        src={BackgroundImg}
+                        alt="particle"
+                        top="-80px"
+                        left="20px"
+                        rotate="60deg"
+                    />
+                    <Particle
+                        src={BackgroundImg}
+                        alt="particle"
+                        top="50px"
+                        right="-70px"
+                        rotate="0deg"
+                    />
+                </ShowcaseParticleContainer>
+            </FlexContainer>
         </FlexContainer>
     </PaddingContainer>
   )
