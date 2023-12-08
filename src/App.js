@@ -1,10 +1,13 @@
 import React from 'react';
+import { MainBody } from './styles/Global.styled';
+import { ThemeProvider } from 'styled-components';
+import { theme } from './utils/Theme'
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <ThemeProvider theme={theme}>
+      <MainBody />
+    </ThemeProvider>
   );
 }
 
