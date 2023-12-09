@@ -22,4 +22,14 @@ export const Skills = [
         tech: 'Java Script',
         icon: <SiJavascript />
     },
+];
+
+export const ProjectDetails = [
+    {
+        id: 0,
+        project_name:"Movies Browser",
+        project_desc: "Movies Browser is a responsive web application developed as the final project in the YouCode programming course. It utilizes HTML, CSS, JavaScript, React, Redux, Git, and GitHub. With access to a vast film database and details about actors and crew, it provides an immersive movie browsing experience."
+    
+    },
+
 ]

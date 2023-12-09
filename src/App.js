@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './utils/Theme';
 import { Showcase } from './components/Showcase';
 import { Myskills } from './components/Myskills';
+import { MyProjects } from './components/MyProjects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Container>
           <Showcase/>
           <Myskills/>
+          <MyProjects/>
         </Container>
       </MainBody>
     </ThemeProvider>

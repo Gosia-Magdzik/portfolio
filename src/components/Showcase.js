@@ -36,7 +36,7 @@ export const Showcase = () => {
                     I'm a <BlueText>Frontend Developer</BlueText>
                 </Heading>
                 <ParaText as="p" top="2rem" bottom="4rem">
-                    Hello, I am a passionate coder, looking for a frontend developer role
+                    That's me and my portfolio page.
                 </ParaText>
 
                 <FlexContainer>
