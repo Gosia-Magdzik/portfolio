@@ -8,8 +8,10 @@ import {
   IconContainer,
 } from '../styles/Global.styled';
 import {
-  SkillsCardContainer
+  SkillsCardContainer,
+  SkillsCard,
 } from "../styles/Myskills.styled"
+import { Skills } from '../utils/Data';
 
 export const Myskills = () => {
   return (
@@ -18,13 +20,26 @@ export const Myskills = () => {
       top="10%"
       bottom="10%"
     >
-      <FlexContainer fullWidthChild>
+      <FlexContainer fullWidthChild align="center">
         <SkillsCardContainer>
-
+          {Skills.map((skill) => (
+            <SkillsCard>
+              <IconContainer size="5rem" color="blue">
+                {skill.icon}
+              </IconContainer>
+              <Heading as="h4" size="h4">
+                {skill.tech}
+              </Heading>
+            </SkillsCard>
+          ))}
         </SkillsCardContainer>
-        <div></div>
-      </FlexContainer>
 
+        <div>
+          <Heading as="h1" size="h1">
+            Technologies & <BlueText>Tools I use</BlueText>
+          </Heading>
+        </div>
+      </FlexContainer>
     </PaddingContainer>
   )
 }
