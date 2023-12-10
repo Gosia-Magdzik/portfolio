@@ -1,6 +1,7 @@
 import { FaReact, FaCss3Alt, FaFigma } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import Project1 from '../assets/cinema.png';
+import Project2 from '../assets/weather.png';
 
 export const Skills = [
     {
@@ -29,10 +30,17 @@ export const ProjectDetails = [
     {
         id: 0,
         project_name:"Movies Browser",
-        project_desc: "Movies Browser is a responsive web application developed as the final project in the YouCode programming course. It utilizes HTML, CSS, JavaScript, React, Redux, Git, and GitHub. With access to a vast film database and details about actors and crew, it provides an immersive movie browsing experience.",
+        project_desc: "The Movies Browser is a responsive web application collaboratively developed using HTML, CSS, JavaScript, React, Redux, Git, and GitHub. It provides access to an extensive film database, including details about actors and crew.",
         project_img: Project1,
         project_url: 'https://marcinkpawel.github.io/movies-browser/',
         reverse: false,
     },
-
+    {
+        id: 1,
+        project_name:"Weather App",
+        project_desc: "The application allows you to check the weather conditions based on the city you enter in the input field at the top. This application is using data from openweathermap.org",
+        project_img: Project2,
+        project_url: 'https://gosia-magdzik.github.io/weather-app/',
+        reverse: false,
+    },
 ]
