@@ -6,6 +6,11 @@ import {
     FlexContainer,
     Button,
 } from '../styles/Global.styled';
+import { 
+    ContactForm,
+    FormLabel,
+    FormInput,
+} from '../styles/Footer.styled';
 
 export const Footer = () => {
   return (
@@ -31,7 +36,38 @@ export const Footer = () => {
         </Heading>
         <PaddingContainer top='3rem'>
             <FlexContainer justify="center">
-                <ContactForm/>
+                <ContactForm>
+                    <PaddingContainer bottom='2rem'>
+                        <FormLabel>Name:</FormLabel>
+                        <FormInput
+                            type='text'
+                            placeholder='Enter your name'
+                        >
+                        </FormInput>
+                    </PaddingContainer>
+
+                    <PaddingContainer bottom='2rem'>
+                        <FormLabel>Email:</FormLabel>
+                        <FormInput
+                            type='email'
+                            placeholder='Enter your email'
+                        >
+                        </FormInput>
+                    </PaddingContainer>
+
+                    <PaddingContainer bottom='2rem'>
+                        <FormLabel>Message:</FormLabel>
+                        <FormInput
+                            as='textarea'
+                            placeholder='Enter your message'
+                        >
+                        </FormInput>
+                    </PaddingContainer>
+
+                    <FlexContainer justify="center">
+                        <Button>Send Message</Button>
+                    </FlexContainer>
+                </ContactForm>
             </FlexContainer>
         </PaddingContainer>
     </PaddingContainer>
