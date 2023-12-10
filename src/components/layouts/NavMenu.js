@@ -8,6 +8,7 @@ import { NavMenuContainer,
         MenuIcon,
         MenuItem,
 } from '../../styles/Navbar.styled';
+import { navLinks } from '../../utils/Data';
 
 import { AiOutlineClose } from 'react-icons/ai'
 
@@ -29,33 +30,15 @@ export const NavMenu = ({ setOpenMenu }) => {
                 direction="column"
                 align="center"
             >
-                <MenuItem 
-                    href="#Home"
-                    onClick={() => setOpenMenu(false) }
-                >
-                    Home
-                </MenuItem>
-
-                <MenuItem 
-                    href="#Skills"
-                    onClick={() => setOpenMenu(false) }
-                >
-                    My Skills
-                </MenuItem>
-
-                <MenuItem 
-                    href="#Projects"
-                    onClick={() => setOpenMenu(false) }
-                >
-                    My Projects
-                </MenuItem>
-
-                <MenuItem 
-                    href="#Contact"
-                    onClick={() => setOpenMenu(false) }
-                >
-                    Contact
-                </MenuItem>
+                { navLinks.map((link) => (
+                    <MenuItem 
+                        key={link.id}
+                        href={`#${link.href}`}
+                        onClick={() => setOpenMenu(false) }
+                    >
+                        {link.name}
+                    </MenuItem>
+                ))}
             </FlexContainer>
         </PaddingContainer>
     </NavMenuContainer>

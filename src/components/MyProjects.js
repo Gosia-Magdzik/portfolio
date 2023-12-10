@@ -10,7 +10,7 @@ import { Project } from './layouts/Project';
 export const MyProjects = () => {
   return (
     <PaddingContainer
-        id="Projects"
+        id='Projects'
         top="5%"
         bottom="5%"
     >
