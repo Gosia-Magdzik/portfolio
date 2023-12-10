@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
     PaddingContainer,
     Container,
@@ -17,10 +17,22 @@ import { theme } from '../utils/Theme'
 export const Navbar = () => {
 
     const [openMenu, setOpenMenu] = useState(false);
+    const [sticky, setSticky] = useState(false);
 
+    useEffect(() => {
+        const onScroll = () => {
+            window.scrollY > 50 ? setSticky(true) : setSticky(false)
+        }
+
+        window.addEventListener('scroll', onScroll)
+        //clean up
+        return () => window.removeEventListener('scroll', onScroll)
+    }, [])
 
   return (
-    <NavbarContainer bgColor="transparent">
+    <NavbarContainer 
+        bgColor={ sticky ? theme.colors.primary : 'transparent' }
+    >
             <PaddingContainer
                 top="1.2rem"
                 bottom="1.2rem"
