@@ -35,15 +35,9 @@ export const Showcase = () => {
                 <Heading as="h3" size="h3">
                     I'm a <BlueText>Frontend Developer</BlueText>
                 </Heading>
-                <ParaText as="p" top="2rem" bottom="4rem">
+                <ParaText as="p" top="2rem" bottom="6rem">
                     That's me and my portfolio page.
                 </ParaText>
-
-                <FlexContainer>
-                    <IconContainer color="blue" size="3rem">
-                        <FaGithub/>
-                    </IconContainer>
-                </FlexContainer>
             </div>
             <FlexContainer align='center' justify="flex-end">
                 <ShowcaseParticleContainer>
