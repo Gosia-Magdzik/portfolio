@@ -9,6 +9,7 @@ import { NavbarContainer,
         Logo,
         MenuIcon,
 } from '../styles/Navbar.styled';
+import { NavMenu } from './layouts/NavMenu';
 
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { theme } from '../utils/Theme'
@@ -35,7 +36,7 @@ export const Navbar = () => {
                     </FlexContainer>
                 </Container>
 
-                {openMenu && <NavMenu/>}
+                {openMenu && <NavMenu setOpenMenu={ setOpenMenu }/>}
             </PaddingContainer>
     </NavbarContainer>
   )
