@@ -9,17 +9,19 @@ import {
 } from '../../styles/Global.styled';
 import { 
     TechStackCard,
-    
+    ProjectImageContainer,
+    ProjectImage,
 } from '../../styles/MyProject.style';
 import { FaGithub } from 'react-icons/fa';
+import Project1 from '../../assets/cinema.png';
 
-export const Project = () => {
+export const Project = ({ data }) => {
   return (
-    <FlexContainer fullwidthchild>
+    <FlexContainer fullWidthChild>
         <div>
             <FlexContainer align="center" gap="1rem">
                 <Heading as='h3' size='h3' bottom='1rem'>
-                    Project Name
+                    {data.project_name}
                 </Heading>
                 <IconContainer color="blue" size="2rem">
                     <FaGithub/>
@@ -27,18 +29,22 @@ export const Project = () => {
             </FlexContainer>
             <PaddingContainer top='1rem'>
                 <FlexContainer gap='1.5rem'>
-                    <TechStackCard>Technology</TechStackCard>
-                    <TechStackCard>Technology</TechStackCard>
+                    {data.tech_stack.map((stack) => (
+                        <TechStackCard>{stack}</TechStackCard>
+                    ))}
                 </FlexContainer>
             </PaddingContainer>
             <ParaText top='1.5rem' bottom='2rem'>
-                Project Description
+                {data.project_desc}
             </ParaText>
             <Button>Visit Website</Button>
         </div>
-        <div>
-            
-        </div>
+        <ProjectImageContainer justify="flex-end">
+            <ProjectImage 
+                src={data.project_img} 
+                alt={data.project_name}
+            />
+        </ProjectImageContainer>
     </FlexContainer>
   )
 }

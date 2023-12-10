@@ -8,3 +8,15 @@ export const TechStackCard = styled.div`
     border-radius: 8px;
 `
 
+export const ProjectImageContainer = styled.div`
+    display: flex;
+    justify-content: ${({ justify }) => justify};
+`
+export const ProjectImage = styled.img`
+    border: 1px solid #fff;
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+
+`

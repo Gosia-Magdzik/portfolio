@@ -19,9 +19,8 @@ export const MyProjects = () => {
         </Heading>
 
         {ProjectDetails.map((project) => (
-          <PaddingContainer top="5rem" bottom="5rem">
-            <Project/>
-            //{project.project_name}
+          <PaddingContainer key={project.id} top="5rem" bottom="5rem">
+            <Project data={project} />
           </PaddingContainer>
 
         ))}

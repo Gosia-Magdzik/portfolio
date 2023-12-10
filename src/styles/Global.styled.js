@@ -90,7 +90,8 @@ export const Button = styled.button`
     transition: all 0.3s ease;
 
     &:hover{
-        color: ${({ theme }) => theme.colors.white}
+        color: ${({ theme }) => theme.colors.primary_light};
+        background-color: ${({ theme }) => theme.colors.primary_light};
     }
 
 `
