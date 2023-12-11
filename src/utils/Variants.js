@@ -29,3 +29,19 @@ export const fadeInRightVariant = {
         }
     }
 }
+
+export const fadeInTopVariant = {
+    hidden: {
+        y: -50,
+        opacity: 0,
+    },
+    visible: {
+        y: 0,
+        opacity: 1,
+
+        transition: {
+            type: 'tween',
+            duration: 1,
+        }
+    }
+}

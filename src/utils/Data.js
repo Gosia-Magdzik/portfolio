@@ -43,7 +43,7 @@ export const ProjectDetails = [
         tech_stack: ['React JS', 'Git'],
         project_img: Project2,
         project_url: 'https://gosia-magdzik.github.io/weather-app/',
-        reverse: false,
+        reverse: true,
     },
 ]
 
