@@ -23,3 +23,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#c189dd, #020617);
+  border-radius: 10px;
+}
