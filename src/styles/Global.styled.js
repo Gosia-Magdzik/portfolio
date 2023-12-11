@@ -132,3 +132,16 @@ export const Button = styled.button`
     }
 
 `
+
+export const FadeImage = styled.img`
+    position: absolute;
+    top: ${({ top }) => top};
+    right: ${({ right }) => right};
+    left: ${({ left }) => left};
+    bottom: ${({ bottom }) => bottom};
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile }) {
+        display: none;
+    }
+
+`

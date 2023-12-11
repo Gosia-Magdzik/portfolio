@@ -1,5 +1,8 @@
 import React from 'react';
-import { Container, MainBody } from './styles/Global.styled';
+import { Container, 
+         MainBody,
+         FadeImage,
+      } from './styles/Global.styled';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './utils/Theme';
 
@@ -8,6 +11,10 @@ import { Myskills } from './components/Myskills';
 import { MyProjects } from './components/MyProjects';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
+
+import TopFadeImage from './assets/top.png';
+import LeftFadeImage from './assets/left.png';
+
 
 function App() {
   return (
@@ -20,6 +27,8 @@ function App() {
           <MyProjects/>
           <Footer/>
         </Container>
+        <FadeImage src={TopFadeImage} top="0" />
+        <FadeImage src={LeftFadeImage} top="30vh" />
       </MainBody>
     </ThemeProvider>
   );
