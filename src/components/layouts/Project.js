@@ -49,7 +49,7 @@ export const Project = ({ data }) => {
             <ParaText top='1.5rem' bottom='2rem'>
                 {data.project_desc}
             </ParaText>
-            <Button>Visit Website</Button>
+            <Button onClick={() => window.open(data.project_url, '_blank')}>Visit Website</Button>
         </motion.div>
         <ProjectImageContainer
             as={motion.div} 
