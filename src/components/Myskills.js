@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
+
 import {
   PaddingContainer,
   FlexContainer,
   Heading,
-  ParaText,
   BlueText,
   IconContainer,
 } from '../styles/Global.styled';
@@ -12,6 +13,10 @@ import {
   SkillsCard,
 } from "../styles/Myskills.styled"
 import { Skills } from '../utils/Data';
+
+import { fadeInLeftVariant,
+        fadeInRightVariant,
+} from '../utils/Variants';
 
 export const Myskills = () => {
   return (
@@ -28,7 +33,12 @@ export const Myskills = () => {
           responsiveFlex
           responsiveDirection="column-reverse"
       >
-        <SkillsCardContainer>
+        <SkillsCardContainer
+          as={motion.div}
+          variants={fadeInLeftVariant}
+          initial="hidden"
+          whileInView="visible"
+        >
           {Skills.map((skill) => (
             <SkillsCard>
               <IconContainer size="5rem" color="blue">
@@ -41,11 +51,15 @@ export const Myskills = () => {
           ))}
         </SkillsCardContainer>
 
-        <div>
+        <motion.div
+           variants={fadeInRightVariant}
+           initial="hidden"
+           whileInView="visible"
+        >
           <Heading as="h1" size="h1">
             Technologies & <BlueText>Tools I use</BlueText>
           </Heading>
-        </div>
+        </motion.div>
       </FlexContainer>
     </PaddingContainer>
   )

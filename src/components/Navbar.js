@@ -43,8 +43,8 @@ export const Navbar = () => {
                     <FlexContainer 
                         justify="space-between" 
                         responsiveFlex
-                    >
-                        <Logo>JustA<BlueText>Dev</BlueText></Logo>
+                    >     
+                        <Logo>Code<BlueText>Craft</BlueText></Logo>
                         <MenuIcon
                             onClick={() => { setOpenMenu(true) }}
                         >
