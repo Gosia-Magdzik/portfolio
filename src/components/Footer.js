@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
+
 import {
     PaddingContainer,
     Heading,
@@ -12,6 +14,8 @@ import {
     FormInput,
 } from '../styles/Footer.styled';
 
+import { fadeInBottomVariant } from '../utils/Variants';
+
 export const Footer = () => {
   return (
     <PaddingContainer
@@ -20,14 +24,20 @@ export const Footer = () => {
         bottom='10%'
     >
         <Heading
-            as='h4'
+            as={motion.h4}
+            variants={fadeInBottomVariant}
+            initial="hidden"
+            whileInView="visible"
             size='h4'
             align='center'
         >
             MY CONTACT
         </Heading>
         <Heading
-            as='h2'
+            as={motion.h2}
+            variants={fadeInBottomVariant}
+            initial="hidden"
+            whileInView="visible"
             size='h2'
             align='center'
             top='0.5rem'
@@ -36,7 +46,12 @@ export const Footer = () => {
         </Heading>
         <PaddingContainer top='3rem'>
             <FlexContainer justify="center">
-                <ContactForm>
+                <ContactForm
+                    as={motion.form}
+                    variants={fadeInBottomVariant}
+                    initial="hidden"
+                    whileInView="visible"
+                >
                     <PaddingContainer bottom='2rem'>
                         <FormLabel>Name:</FormLabel>
                         <FormInput
