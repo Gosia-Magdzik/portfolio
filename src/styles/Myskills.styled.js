@@ -5,6 +5,11 @@ export const SkillsCardContainer = styled.div`
     grid-template-columns: auto auto;
     grid-gap: 2rem;
     padding: 0 5%;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile }) {
+        display: block;
+        padding: 0;
+    }
 `
 
 export const SkillsCard = styled.div`
@@ -17,4 +22,8 @@ export const SkillsCard = styled.div`
     align-items: center;
     background-color: ${({ theme }) => theme.colors.primary_light };
 
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile }) {
+        width: 300px;
+        margin-top: 2rem;
+    }
 `

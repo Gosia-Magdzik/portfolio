@@ -24,6 +24,11 @@ export const Showcase = () => {
         right="10%"
         top="15%"
         bottom="10%"
+        responsiveLeft="1rem"
+        responsiveRight="1rem"
+        responsiveTop="8rem"
+
+
     >
         <FlexContainer align="left" fullWidthChild>
             {/* --left-content-- */}

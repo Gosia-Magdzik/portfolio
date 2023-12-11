@@ -36,9 +36,14 @@ export const Navbar = () => {
             <PaddingContainer
                 top="1.2rem"
                 bottom="1.2rem"
+                responsiveLeft="1rem"
+                responsiveRight="1rem"
             >
                 <Container>
-                    <FlexContainer justify="space-between">
+                    <FlexContainer 
+                        justify="space-between" 
+                        responsiveFlex
+                    >
                         <Logo>JustA<BlueText>Dev</BlueText></Logo>
                         <MenuIcon
                             onClick={() => { setOpenMenu(true) }}
