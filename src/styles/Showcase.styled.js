@@ -5,19 +5,17 @@ export const ShowcaseParticleContainer = styled.div`
 `
 
 export const ShowcaseImageCard = styled.div`
-    height: 30rem;
-    width: 100%;
-    padding-top: 2rem;
+    height: 30%;
+    width: auto;
+    max-width: 100%;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
+    border-radius: 10%;
+    margin-top: -40px;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile }){
-        padding-top: 1rem;
-        height: 30rem;
         display: block;
-        border-radius: 50%;
-
     }
 `
 
