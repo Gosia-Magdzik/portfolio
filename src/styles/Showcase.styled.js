@@ -5,14 +5,15 @@ export const ShowcaseParticleContainer = styled.div`
 `
 
 export const ShowcaseImageCard = styled.div`
-    height: 30%;
+    height: 20%;
     width: auto;
     max-width: 100%;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
     border-radius: 10%;
-    margin-top: -40px;
+    margin-top: -50px;
+    opacity: 0.8;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile }){
         display: block;
@@ -26,6 +27,7 @@ export const Particle = styled.img`
     left: ${({ left }) => left};
     right: ${({ right }) => right};
     transform: rotate(${({ rotate }) => rotate});
+    opacity: 0.9;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile }){
         display: none;

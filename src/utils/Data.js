@@ -89,7 +89,7 @@ export const ProjectDetails = [
     {
         id: 6,
         project_name:"Goat Farm",
-        project_desc: "Kozia Dolina' is a responsive website, inspired by journey, dedicated to showcasing a wanderful goat farm and a passion behind it",
+        project_desc: "Kozia Dolina is a responsive website, inspired by journey, dedicated to showcasing a wanderful goat farm and a passion behind it",
         tech_stack: ['React JS', 'Maps', 'React Router', 'Bootstrap'],
         project_img: goat,
         project_url: 'https://gosia-magdzik.github.io/kozia-dolina/',

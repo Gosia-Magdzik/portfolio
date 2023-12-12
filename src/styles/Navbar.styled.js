@@ -13,7 +13,7 @@ export const NavbarContainer = styled.div`
 export const Logo = styled.p`
     font-size: 1.7rem;
     font-weight: ${({ theme }) => theme.fonts.weight.medium};
-    color: white;
+    color: #cbd5e1;
 `
 
 export const MenuIcon = styled.a`
