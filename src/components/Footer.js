@@ -1,17 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import envelope from '../assets/envenlope.svg';
+import phone from '../assets/phone.svg';
 
 import {
     PaddingContainer,
     Heading,
     BlueText,
     FlexContainer,
-    Button,
 } from '../styles/Global.styled';
 import { 
     ContactForm,
-    FormLabel,
-    FormInput,
+    Image,
+    StyledImageLink,
 } from '../styles/Footer.styled';
 
 import { fadeInBottomVariant } from '../utils/Variants';
@@ -45,43 +46,23 @@ export const Footer = () => {
             Contact <BlueText>Me Here</BlueText>
         </Heading>
         <PaddingContainer top='3rem'>
-            <FlexContainer justify="center">
+            <FlexContainer 
+                justify="center"
+                direction="row"
+                align="center"
+            >
                 <ContactForm
                     as={motion.form}
                     variants={fadeInBottomVariant}
                     initial="hidden"
                     whileInView="visible"
                 >
-                    <PaddingContainer bottom='2rem'>
-                        <FormLabel>Name:</FormLabel>
-                        <FormInput
-                            type='text'
-                            placeholder='Enter your name'
-                        >
-                        </FormInput>
-                    </PaddingContainer>
-
-                    <PaddingContainer bottom='2rem'>
-                        <FormLabel>Email:</FormLabel>
-                        <FormInput
-                            type='email'
-                            placeholder='Enter your email'
-                        >
-                        </FormInput>
-                    </PaddingContainer>
-
-                    <PaddingContainer bottom='2rem'>
-                        <FormLabel>Message:</FormLabel>
-                        <FormInput
-                            as='textarea'
-                            placeholder='Enter your message'
-                        >
-                        </FormInput>
-                    </PaddingContainer>
-
-                    <FlexContainer justify="center" responsiveFlex>
-                        <Button>Send Message</Button>
-                    </FlexContainer>
+                    <StyledImageLink href="mailto:magdzik.frontend@gmail.com">
+                        <Image src={envelope}></Image>
+                    </StyledImageLink>
+                    <StyledImageLink href="tel:+48794753888">
+                        <Image src={phone} alt="phone"/>
+                    </StyledImageLink>
                 </ContactForm>
             </FlexContainer>
         </PaddingContainer>

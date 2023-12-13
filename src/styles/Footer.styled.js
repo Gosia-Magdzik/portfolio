@@ -26,3 +26,24 @@ export const FormInput = styled.input`
         color: ${({ theme }) => theme.colors.para_text_color};
     }
 `
+
+export const Image = styled.img`
+    width: 9rem;
+    height: auto;
+    transition: transform 0.4s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+`
+
+export const StyledImageLink = styled.a`
+  text-decoration: none; 
+  transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
+    
+    &:hover{
+        transform: scale(1.3);
+        filter: brightness(140%);
+    }
+`;
