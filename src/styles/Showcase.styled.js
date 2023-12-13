@@ -16,7 +16,10 @@ export const ShowcaseImageCard = styled.div`
     opacity: 0.8;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile }){
-        display: block;
+        display: flex;
+        justify-content: center;
+        width: 90%; 
+        aspect-ratio: 1 / 1;
     }
 `
 
