@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import envelope from '../assets/envenlope.svg';
 import phone from '../assets/phone.svg';
+import github from '../assets/github.svg';
 
 import {
     PaddingContainer,
@@ -50,6 +51,7 @@ export const Footer = () => {
                 justify="center"
                 direction="row"
                 align="center"
+                gap="10rem"
             >
                 <ContactForm
                     as={motion.form}
@@ -58,7 +60,10 @@ export const Footer = () => {
                     whileInView="visible"
                 >
                     <StyledImageLink href="mailto:magdzik.frontend@gmail.com">
-                        <Image src={envelope}></Image>
+                        <Image src={envelope}/>
+                    </StyledImageLink>
+                    <StyledImageLink href="https://github.com/Gosia-Magdzik">
+                        <Image src={github} alt="github"/>
                     </StyledImageLink>
                     <StyledImageLink href="tel:+48794753888">
                         <Image src={phone} alt="phone"/>
