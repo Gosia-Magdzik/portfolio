@@ -32,7 +32,7 @@ export const Project = ({ data }) => {
             whileInView="visible"
         >
             <FlexContainer align="center" gap="1rem">
-                <Heading as='h3' size='h3' bottom='1rem'>
+                <Heading  size='h3' bottom='1rem'>
                     {data.project_name}
                 </Heading>
                 <IconContainer color="blue" size="2rem">
@@ -40,7 +40,7 @@ export const Project = ({ data }) => {
                 </IconContainer>
             </FlexContainer>
             <PaddingContainer top='1rem'>
-                <FlexContainer gap='1.5rem'>
+                <FlexContainer gap='1.5rem' align="center">
                     {data.tech_stack.map((stack) => (
                         <TechStackCard>{stack}</TechStackCard>
                     ))}

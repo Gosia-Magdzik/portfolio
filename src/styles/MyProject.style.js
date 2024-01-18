@@ -4,8 +4,9 @@ export const TechStackCard = styled.div`
     display: inline-block;
     background-color: ${({ theme }) => theme.colors.secondary};
     color: #fff;
-    padding: 0.3rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
+    font-size: 1rem;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         margin-right: 1rem;
@@ -21,7 +22,7 @@ export const ProjectImageContainer = styled.div`
 export const ProjectImage = styled.img`
     border: 1px solid #fff;
     width: 80%;
-    height: 300px;
+    height: 330px;
     object-fit: cover;
     border-radius: 10px;
 

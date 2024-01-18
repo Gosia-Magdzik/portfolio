@@ -1,11 +1,13 @@
 import { FaReact, FaCss3Alt, FaFigma } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
 import Project1 from '../assets/cinema.png';
 import Project2 from '../assets/weather.png';
 import CountriesAPI from '../assets/CountriesAPI.png';
 import taskify from '../assets/taskify.png';
 import kort from '../assets/kort.png';
-import login from '../assets/login.png';
+import pomodoro from '../assets/pomodoro.png';
 import goat from '../assets/goat.png';
 
 export const Skills = [
@@ -28,6 +30,15 @@ export const Skills = [
         id: 3,
         tech: 'Java Script',
         icon: <SiJavascript />
+    },
+    {
+        id: 4,
+        tech: 'TypeScript',
+        icon: <SiTypescript />
+    },    {
+        id: 5,
+        tech: 'Redux',
+        icon: <SiRedux />
     },
 ];
 
@@ -79,11 +90,11 @@ export const ProjectDetails = [
     },
     {
         id: 5,
-        project_name:"log in / sign in form",
-        project_desc: "Project is an interactive form that allows users to log in or sign up if they don't have an account yet",
-        tech_stack: ['React JS', 'useContent Hook'],
-        project_img: login,
-        project_url: 'https://gosia-magdzik.github.io/login-form/',
+        project_name:"Pomodoro",
+        project_desc: "This time management tool, based on the popular Pomodoro technique, allows users to efficiently allocate their time while providing the flexibility to edit the preset time intervals.",
+        tech_stack: ['React JS', 'styled-components', 'useContext Hook'],
+        project_img: pomodoro,
+        project_url: 'https://gosia-magdzik.github.io/pomodoro/',
         reverse: true,
     },
     {

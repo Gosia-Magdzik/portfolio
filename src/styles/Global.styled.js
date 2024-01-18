@@ -96,6 +96,7 @@ export const BlueText = styled.span`
 export const ParaText = styled(PaddingContainer)`
     color: ${({ theme }) => theme.colors.para_text_color};
     line-height: 2rem;
+    font-size: 1.3rem;
 `
 
 export const IconContainer = styled.div`
@@ -118,19 +119,22 @@ export const IconContainer = styled.div`
 export const Button = styled.button`
     display: inline-block;
     width: max-content;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.7rem;
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.primary_light};
-    border: ${({ theme }) => theme.colors.gray};
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: none;
+    font-size: 1rem;
+    border: unset;
+
 
     &:hover{
-        color: ${({ theme }) => theme.colors.primary_light};
-        background-color: ${({ theme }) => theme.colors.primary_light};
+        color: ${({ theme }) => theme.colors.white};
+        background-color: ${({ theme }) => theme.colors.secondary};
+        transform: scale(0.9);
     }
-
 `
 
 export const FadeImage = styled.img`

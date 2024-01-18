@@ -48,7 +48,7 @@ export const Showcase = () => {
                     I'm <BlueText>Malgorzata Magdzik</BlueText> 
                 </Heading>
                 <Heading as="h3" size="h3">
-                    I'm a <BlueText>Frontend Developer</BlueText>
+                    a <BlueText>Frontend Developer</BlueText>
                 </Heading>
                 <ParaText as="p" top="2rem" bottom="6rem">
                     That's me and my portfolio page.
