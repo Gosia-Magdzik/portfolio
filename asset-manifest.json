@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.956d16f0.css",
-    "main.js": "/portfolio/static/js/main.4704d511.js",
+    "main.js": "/portfolio/static/js/main.8749d3c0.js",
     "static/media/cinema.png": "/portfolio/static/media/cinema.c52a524930640c0f2a06.png",
     "static/media/kort.png": "/portfolio/static/media/kort.45c62db501d01dd6348a.png",
     "static/media/goat.png": "/portfolio/static/media/goat.1af7682cf44d05bc178e.png",
     "static/media/mm.png": "/portfolio/static/media/mm.0949972608856436b882.png",
-    "static/media/pomodoro.png": "/portfolio/static/media/pomodoro.4a8e5ee2b3bf27e28e2c.png",
     "static/media/CountriesAPI.png": "/portfolio/static/media/CountriesAPI.0e061d4d61a9b32c4d12.png",
+    "static/media/pomodoro.png": "/portfolio/static/media/pomodoro.ec1aefa8e94b0aaac627.png",
     "static/media/left.png": "/portfolio/static/media/left.49ff48e3349f78a7665d.png",
     "static/media/taskify.png": "/portfolio/static/media/taskify.b3507aa4557e48363038.png",
     "static/media/top.png": "/portfolio/static/media/top.4e968ec2236ce87fb970.png",
@@ -17,10 +17,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/phone.svg": "/portfolio/static/media/phone.660057551e6d2b0ee540b90aa9e903f7.svg",
     "main.956d16f0.css.map": "/portfolio/static/css/main.956d16f0.css.map",
-    "main.4704d511.js.map": "/portfolio/static/js/main.4704d511.js.map"
+    "main.8749d3c0.js.map": "/portfolio/static/js/main.8749d3c0.js.map"
   },
   "entrypoints": [
     "static/css/main.956d16f0.css",
-    "static/js/main.4704d511.js"
+    "static/js/main.8749d3c0.js"
   ]
 }
